@@ -170,6 +170,7 @@ class CarcassonneTile:
 
         return CarcassonneTile(self._name,new_roads,new_cities)
 
+# intializes the various tiles, with their major features encoded in the attributes of each object.
 tile01 = CarcassonneTile('tile01',[[1,3]],[[0]])
 tile02 = CarcassonneTile('tile02',[],[[1,0,3]])
 tile03 = CarcassonneTile('tile03',[[0,-1],[1,-1],[2,-1],[3,-1]],[])
